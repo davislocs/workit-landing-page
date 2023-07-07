@@ -1,0 +1,99 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Fraunces 144pt";
+    src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url(/assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+    src: url(/assets/fonts/manrope/static/Manrope-Regular.ttf);
+}
+
+$clr: (
+    "primary": hsla(273, 85%, 13%, 1),
+    "secondary":hsla(0, 0%, 100%, 1),
+    "accent": hsla(150, 100%, 63%, 1),
+    "neutral-300": hsla(271, 12%, 34%, 1),
+    "neutral-900": hsla(274, 100%, 99%, 1)
+);
+
+$fs: (
+    "paragraph": 1.6rem,
+    "list": 2rem,
+    "heding-s": 2.6rem,
+    "heding-m": 3rem,
+    "heding-l": 4.8rem,
+
+    "paragraph-tablet": 1.6rem,
+    "heding-s-tablet": 2.6rem,
+    "heding-m-tablet": 4.5rem,
+    "heding-l-tablet": 5.8rem,
+
+    "paragraph-desktop": 1.8rem,
+    "list-desktop": 2.8rem,
+    "heding-s-desktop": 3rem,
+    "heding-m-desktop": 5.3rem,
+    "heding-l-desktop": 7.6rem
+);
+
+$padding-left-right: 1.6rem;
+$padding-left-right-tablet: 4rem;
+$padding-left-right-desktop: 16.4rem;
+
+//Screen break points//
+$min-screen-size-tablet: 376px;
+$min-screen-size-mid-tablet: 740px;
+$min-sreen-size-desktop: 1300px;   /*850px*/
+$min-sreen-size-mid-desktop: 1700px;
+
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+$ff-primary: "Manrope", "sans-serif";
+$ff-secondary: "Fraunces 144pt", "sans-serif";
+
+
+// font classes
+
+// Resets
+body,html{
+    overflow-x: hidden;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+html{
+    font-size: 62.5%;
+    font-weight: $fw-regular;
+    font-family: $ff-primary;
+    color: black;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+img{
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}

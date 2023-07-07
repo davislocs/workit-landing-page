@@ -1,0 +1,12 @@
+@mixin forScreenSize($size) {
+    @media(min-width: $size){
+        @content;
+    }
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}

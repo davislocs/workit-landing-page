@@ -1,0 +1,92 @@
+@import "_config";
+@import "_mixins";
+
+.heding-s {
+    font-family: $ff-secondary;
+    color: map-get($clr , primary );
+    font-size: map-get($fs, heding-s );
+    font-weight: $fw-semi-bold;
+    line-height: 3.6rem;
+
+    @include forScreenSize($min-screen-size-tablet) {
+        font-size: map-get($fs, heding-s-tablet );
+        line-height: 3.6rem;
+    }
+
+    @include forScreenSize($min-sreen-size-desktop) {
+        font-size: map-get($fs, heding-s-desktop );
+        line-height: 4rem;
+    }
+}
+
+.heding-m {
+    font-family: $ff-secondary;
+    color: map-get($clr , secondary );
+    font-size: map-get($fs, heding-m );
+    font-weight: $fw-semi-bold;
+    line-height: 4.8rem;
+    font-style: normal;
+
+    @include forScreenSize($min-screen-size-tablet) {
+        font-size: map-get($fs, heding-m-tablet );
+        line-height: 5.6rem;
+    }
+
+    @include forScreenSize($min-sreen-size-desktop) {
+        font-size: map-get($fs, heding-m-desktop );
+        line-height: 6.4rem;
+    }
+}
+
+.heding-l {
+    font-family: $ff-secondary;
+    color: map-get($clr , secondary );
+    font-size: map-get($fs, heding-l );
+    font-weight: $fw-semi-bold;
+    line-height: 5rem;
+
+    @include forScreenSize($min-screen-size-tablet) {
+        font-size: map-get($fs, heding-l-tablet );
+        line-height: 6rem;
+    }
+
+    @include forScreenSize($min-sreen-size-desktop) {
+        font-size: map-get($fs, heding-l-desktop );
+        line-height: 8rem;
+    }
+}
+
+.body-paragraph {
+    font-family: $ff-primary;
+    color: map-get($clr , secondary );
+    font-size: map-get($fs, paragraph );
+    font-weight: $fw-regular;
+    line-height: 2.8rem;
+
+    @include forScreenSize($min-screen-size-tablet) {
+        font-size: map-get($fs, paragraph-tablet );
+        line-height: 2.8rem;
+    }
+
+    @include forScreenSize($min-sreen-size-desktop) {
+        font-size: map-get($fs, paragraph-desktop );
+        line-height: 3.2rem;
+    }
+}
+
+.list-style-font {
+    font-family: $ff-secondary;
+    color: map-get($clr , primary);
+    font-size: map-get($fs, list);
+    font-weight: $fw-semi-bold;
+
+    
+
+    // @include forScreenSize($min-screen-size-tablet) {
+    //     font-size: map-get($fs, paragraph-tablet );
+    // }
+
+    @include forScreenSize($min-sreen-size-desktop) {
+        font-size: map-get($fs, list-desktop);
+    }
+}
