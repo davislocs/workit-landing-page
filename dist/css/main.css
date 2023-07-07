@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: "Fraunces 144pt";
-  src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
-  src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+  src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+  src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 @font-face {
   font-family: "Manrope";
-  src: url(/assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
-  src: url(/assets/fonts/manrope/static/Manrope-Regular.ttf);
+  src: url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+  src: url(assets/fonts/manrope/static/Manrope-Regular.ttf);
 }
 /*850px*/
 body, html {
@@ -58,13 +58,13 @@ img {
 
 @font-face {
   font-family: "Fraunces 144pt";
-  src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
-  src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+  src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+  src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 @font-face {
   font-family: "Manrope";
-  src: url(/assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
-  src: url(/assets/fonts/manrope/static/Manrope-Regular.ttf);
+  src: url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+  src: url(assets/fonts/manrope/static/Manrope-Regular.ttf);
 }
 /*850px*/
 body, html {
